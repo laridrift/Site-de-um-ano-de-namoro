@@ -1,0 +1,1 @@
+meu[[:space:]]site/* filter=lfs diff=lfs merge=lfs -text
