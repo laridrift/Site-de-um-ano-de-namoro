@@ -75,16 +75,15 @@ setInterval(atualizarContador, 1000);
 
 
 
-const menuToggle = document.getElementById("menuToggle");
+const menuToggle = document.getElementById("toggeMenu");
 const navLinks = document.getElementById("navLinks");
 
 // abrir/fechar menu
-menuToggle.addEventListener("click", () => {
   navLinks.classList.toggle("active");
-});
+
 
 // fechar ao clicar em um link
-document.querySelectorAll(".nav-links a").forEach(link => {
+document.querySelectorAll(".nav-links").forEach(link => {
   link.addEventListener("click", () => {
     navLinks.classList.remove("active");
   });
